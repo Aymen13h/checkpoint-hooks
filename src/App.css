@@ -1,38 +1,35 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: #d33d29;
+color: rgb(104, 104, 104);
+font-family: "Poppins",sans-serif;
+margin: 0 auto;
+height: 100%;
+width: 100%;
+  background-image: url(https://pngimg.com/uploads/filmstrip/filmstrip_PNG100.png);
+  background-size: 130%;
+background-repeat: no-repeat;
+background-position-y: 850px;
+background-position-x: -80px;
+
+}
+
+.MoviesList {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
+.movie-card {
+  border-radius: 6px;
+  background: darkred;
+  position: relative;
+  margin: 1rem;
+  width: 358px;
+  box-shadow: 6px 8px 28px 0px rgb(0, 0, 0 );
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  width: 300px;
 }
